@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+
+}
+
+.row{
+	width:100%;
+}
+
+@media (min-width: 992px)
+{
+.box1l ,.box2l,.box3l
+{
+	position: relative;
+
+  float: left;
+  clear: top;
+  margin-right: 10px;
+  border: 1px solid black;
+  background-color: grey;
+  width:25%;
+  
+ 
+  font-family: Helvetica;
+  color: white;
+
+}
+.chicken,.beef,.sushi{
+	float:right;
+	position:absolute;
+	height: 56px;
+	top:0px;
+	right :0px;
+	width:30%;
+	background:red;
+	border: 1px solid black;
+
+}
+.beef{
+background:yellow;
+color: green;
+}
+.sushi{
+background:pink;
+color: black;
+}
+.chickencl,.beefcl,.sushicl{
+	margin-top:60px;
+	width :100%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) 
+{
+
+.box1l ,.box2l
+{
+	position: relative;
+
+  float: left;
+  clear: top;
+  margin-right: 10px;
+  border: 1px solid black;
+  background-color: grey;
+  width:45%;
+  
+ 
+  font-family: Helvetica;
+  color: white;
+
+}
+.box3l
+{
+
+	position: relative;
+  margin-top: 20px;
+  float: left;
+  clear: top;
+  margin-right: 10px;
+  border: 1px solid black;
+  background-color: grey;
+  width:91.5%;
+  
+ 
+  font-family: Helvetica;
+  color: white;
+}
+.chicken,.beef,.sushi{
+	float:right;
+	position:absolute;
+	height: 56px;
+	top:0px;
+	right :0px;
+	width:30%;
+	background:red;
+	border: 1px solid black;
+
+}
+.beef{
+background:yellow;
+color: green;
+}
+.sushi{
+background:pink;
+color: black;
+}
+.chickencl,.beefcl,.sushicl{
+	margin-top:60px;
+	width :100%;
+}
+
+
+}
+
+
+
+
+
+@media (max-width: 767px)
+{
+
+.box1l ,.box2l,.box3l
+{
+	position: relative;
+  margin-top: 20px;
+  float: left;
+  clear: top;
+  margin-right: 10px;
+  border: 1px solid black;
+  background-color: grey;
+  width:80%;
+  
+ 
+  font-family: Helvetica;
+  color: white;
+
+}
+
+.chicken,.beef,.sushi{
+	float:right;
+	position:absolute;
+	height: 56px;
+	top:0px;
+	right :0px;
+	width:30%;
+	background:red;
+	border: 1px solid black;
+
+}
+.beef{
+background:yellow;
+color: green;
+}
+.sushi{
+background:pink;
+color: black;
+}
+.chickencl,.beefcl,.sushicl{
+	margin-top:60px;
+	width :100%;
+}
+
+
+
+
+
+
+}
+
